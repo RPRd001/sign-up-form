@@ -7,20 +7,23 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Cinzel", serif;
     min-width: 375px;
     max-width: 1440px;
     height: 100vh;
     background-color: rgb(228, 201, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 form {
     width: 80%;
+    height: 90vh;
     margin: auto;
     display: flex;
     flex-direction: row;
-    max-height: 100vh;
-    height: 100vh;
+    box-shadow: 0px 0px 5px 5px rgb(129, 100, 26);
 }
 
 .brand-section {
@@ -54,7 +57,7 @@ form {
 }
 
 .phrase {
-    font-weight: lighter;
+    font-weight: 600;
     font-size: large;
     font-style: italic;
 }
@@ -104,11 +107,12 @@ input:focus {
 }
 
 button[type="submit"] {
+    font-family: "Cinzel", serif;
+    font-weight: bold;
     border: 2px solid rgb(228, 201, 133);
     background-color: rgb(228, 201, 133);
     padding: 0.5rem 0.8rem;
     border-radius: 0.2rem;
-    font-weight: bold;
     transition: background-color 200ms ease-in;
 }
 
