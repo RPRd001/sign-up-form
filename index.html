@@ -4,12 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     
     <main>
 
+        <form action="">
+
+            <div class="brand-section">
+                <div class="logo-section">
+                    <h1>
+                        Cuqui's Hairdressing
+                    </h1>
+                </div>
+            </div>
+
+            <div class="main-section">
+                <p class="phrase">
+                    La vida es demasiado corta para llevar un pelo aburrido. Crea tu cuenta y asegura que tu cabello este siempre a la moda.
+                </p>
+
+                <div class="input-area">
+
+                    <fieldset class="name-info">
+                        <div class="container-flex">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        <div class="container-flex">
+                            <label for="first-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </fieldset>
         
+                    <fieldset class="contact-info">
+                        <div class="container-flex">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        
+                        <div class="container-flex">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="number" name="phone-number" id="phone-number">
+                        </div>
+                    </fieldset>
+    
+                    <fieldset class="password-info">
+                        <div class="container-flex">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+            
+                        <div class="container-flex">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </div>
+                    </fieldset>
+                </div>
+    
+                <button type="submit">
+                    Create Account
+                </button>
+    
+                <p>
+                    Already have an account? <a href="">Log in</a>
+                </p>
+            </div>
+
+        </form>
 
     </main>
 

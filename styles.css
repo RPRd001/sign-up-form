@@ -5,3 +5,122 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 375px;
+    max-width: 1440px;
+    height: 100vh;
+    background-color: black;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+.brand-section {
+    background-image: url('./img/hair.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(228, 201, 133);
+    padding: 1rem;
+    width: 100%;
+}
+
+.main-section {
+    background-color: rgb(228, 201, 133);
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.phrase {
+    font-weight: lighter;
+    font-size: large;
+    font-style: italic;
+}
+
+.main-section > p {
+    padding: 0rem 2rem;
+}
+
+.main-section > button {
+    display: inline-block;
+    margin: 0rem 2rem;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    box-shadow: 1px 0px 5px 0px darkgrey;
+    width: 100%;
+    background-color: white;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+label {
+    font-size: small;
+    font-weight: 500;
+}
+
+input {
+    padding: 0.15rem 0.5rem;
+}
+
+input:focus {
+    /* Add something here */
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+button[type="submit"] {
+    font-weight: bold;
+    background-color: white;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid rgb(136, 99, 5);
+    border-radius: 0.2rem;
+    color: rgb(77, 55, 1);
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(228, 201, 133);
+}
+
+a {
+    color: rgb(175, 4, 4);
+}
+
+a:hover {
+    cursor: pointer;
+}
