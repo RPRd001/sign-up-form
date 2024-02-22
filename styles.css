@@ -126,3 +126,30 @@ a:hover {
     cursor: pointer;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .brand-section {
+        width: 100%;
+        height: 100px;
+    }
+
+    .input-area {
+        box-shadow: none;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}
