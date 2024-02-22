@@ -11,7 +11,7 @@ body {
     min-width: 375px;
     max-width: 1440px;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(228, 201, 133);
 }
 
 form {
@@ -45,7 +45,7 @@ form {
 }
 
 .main-section {
-    background-color: rgb(228, 201, 133);
+    background-color: white;
     padding: 2rem 0rem;
     display: flex;
     flex-direction: column;
@@ -104,23 +104,21 @@ input:focus {
 }
 
 button[type="submit"] {
-    font-weight: bold;
-    background-color: white;
+    border: 2px solid rgb(228, 201, 133);
+    background-color: rgb(228, 201, 133);
     padding: 0.5rem 0.8rem;
-    border: 1px solid rgb(136, 99, 5);
     border-radius: 0.2rem;
-    color: rgb(77, 55, 1);
+    font-weight: bold;
+    transition: background-color 200ms ease-in;
 }
 
 button[type="submit"]:hover {
     cursor: pointer;
-    background-color: rgb(228, 201, 133);
-}
-
-a {
-    color: rgb(175, 4, 4);
+    background-color: white;
+    transition: background-color 200ms ease-in;
 }
 
 a:hover {
     cursor: pointer;
+    text-decoration: none;
 }
